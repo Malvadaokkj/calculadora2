@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: gray;
+
+}
+.box {
+    height: 465px;
+    width: 500px;
+    border: 5px solid black;
+    background-color: none;
+    border-radius: 10px;
+    
+
+}
+
+.box h1 {
+    position: absolute;
+    right: 44%;
+}
